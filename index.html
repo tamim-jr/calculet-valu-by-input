@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Your Result is</h1>
+    <h1>Your Calculation is here</h1>
     <script>
         var firstNumber = prompt("Type your first value :");
         var secondNumber = prompt("Type your last value :");
@@ -18,13 +18,16 @@
         secondNumber = parseInt(secondNumber, 10);
 
         var addition = (firstNumber + secondNumber);
-
         var minus = (firstNumber - secondNumber);
+        var multiple = (firstNumber * secondNumber);
+        var devide = (firstNumber % secondNumber);
 
         document.write("Your First input value: " + firstNumber + "</br>");
         document.write("Your Second input value: " + secondNumber + "</br>");
-        document.write("Your Positive result is: " + addition + "</br>");
-        document.write("Your Negative result is: " + minus + "</br>");
+        document.write("Your Positive result is: " + firstNumber + " + " + secondNumber + " = " + addition + "</br>");
+        document.write("Your Negative result is: " + firstNumber + " - " + secondNumber + " = " + minus + "</br>");
+        document.write("Your Negative result is: " + firstNumber + " * " + secondNumber + " = " + multiple + "</br>");
+        document.write("Your Negative result is: " + firstNumber + " % " + secondNumber + " = " + devide + "</br>");
     </script>
 </body>
 
