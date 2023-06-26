@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Your Result is</h1>
+    <script>
+        var firstNumber = prompt("Type your first value :");
+        var secondNumber = prompt("Type your last value :");
+
+        firstNumber = parseInt(firstNumber, 10);
+
+        secondNumber = parseInt(secondNumber, 10);
+
+        var addition = (firstNumber + secondNumber);
+
+        var minus = (firstNumber - secondNumber);
+
+        document.write("Your First input value: " + firstNumber + "</br>");
+        document.write("Your Second input value: " + secondNumber + "</br>");
+        document.write("Your Positive result is: " + addition + "</br>");
+        document.write("Your Negative result is: " + minus + "</br>");
+    </script>
+</body>
+
+</html>
